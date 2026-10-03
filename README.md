@@ -6,9 +6,9 @@ The [notebook](code/Portfolio_Assessment1_LeMaiChi.ipynb) summarizes discharge e
 
 ## Project files
 
- `cleaned_dataset/metadata.csv`  Experiment index, test conditions and targets; `filename` links to sensor data. <br>
- `cleaned_dataset/data/*.csv`  One file per experiment, containing sensor samples or impedance measurements. <br>
- `cleaned_dataset/extra_infos/README_*.txt`  Original field definitions and protocols for the battery IDs in each filename. 
+ `dataset/metadata.csv`  Experiment index, test conditions and targets; `filename` links to sensor data. <br>
+ `dataset/data/*.csv`  One file per experiment, containing sensor samples or impedance measurements. <br>
+ `dataset/extra_infos/README_*.txt`  Original field definitions and protocols for the battery IDs in each filename. 
  <br>
  <br>
  `code/Portfolio_Assessment1_LeMaiChi.ipynb`  Data preparation, quality checks, EDA and engineering interpretation. <br>

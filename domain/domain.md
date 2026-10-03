@@ -16,7 +16,7 @@ This project explores lithium-ion battery discharge capacity using voltage, curr
 
 ## Dataset context
 
-The data include charge, discharge and impedance tests with different temperatures, loads and voltage cutoffs. Consult the [original experiment notes](../cleaned_dataset/extra_infos/) for each battery group's protocol and stopping criteria.
+The data include charge, discharge and impedance tests with different temperatures, loads and voltage cutoffs. Consult the [original experiment notes](../dataset/extra_infos/) for each battery group's protocol and stopping criteria.
 
 The current target is `Capacity`; SOC, SOH and RUL are not output labels. Capacity reflects both ageing and operating conditions, and its tertile classes are descriptive. Repeated observations require battery-aware validation, while forecasts require features available before the prediction time.
 
