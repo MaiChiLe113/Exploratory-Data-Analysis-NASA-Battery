@@ -12,23 +12,25 @@ The [notebook](code/Portfolio_Assessment1_LeMaiChi.ipynb) summarizes discharge e
  <br>
  <br>
  `code/Portfolio_Assessment1_LeMaiChi.ipynb`  Data preparation, quality checks, EDA and engineering interpretation. <br>
- `domain/`  Short domain guide and two background research PDFs. <br>
+ `domain/`  Short domain guide. <br>
  <br>
  `output/battery_discharge_features.csv`  Cached discharge features: **2,794 rows × 22 columns**. <br>
  `output/nasa_battery_eda_clean.csv`  Filtered analysis table: **2,750 rows × 23 columns**. <br>
- `output/figures/`  **12 PNG figures**, numbered consistently with notebook captions and titles. <br>
+ `output/figures/`  **12 PNG figures (Figures 3–14)**, numbered as in the notebook and report; Figures 1–2 are external diagrams used only in the report. <br>
 
 ## Run
 
 From the repository root:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install jupyterlab numpy pandas matplotlib seaborn scipy
 cd code
 jupyter lab Portfolio_Assessment1_LeMaiChi.ipynb
 ```
+
+Tested with Python 3.14.5 (macOS, arm64), numpy 2.5.3, pandas 3.0.6, matplotlib 3.11.2, seaborn 0.13.2. The notebook prints these in its environment cell. Set `FORCE_REBUILD = True` in the loading cell to rebuild the feature table from the raw CSVs, then Restart & Run All.
 
 ## Workflow and figures
 
@@ -38,10 +40,10 @@ The notebook displays all **15 selected predictors**, their summary statistics, 
 
 | Numbers | Plots, in order |
 | --- | --- |
-| 1–3 | Missing-values heatmap; numerical-feature boxplots; IQR outlier percentages. |
-| 4–7 | Capacity distribution; predictor distributions; correlation matrix; top-three-feature pairplot with `Capacity`. |
-| 8–10 | Capacity versus discharge index; battery degradation trajectories; capacity by ambient temperature. |
-| 11–12 | Samples per discharge experiment; discharge experiments per battery. |
+| 3–5 | Missing-values heatmap; numerical-feature boxplots; IQR outlier percentages. |
+| 6–9 | Capacity distribution; predictor distributions; correlation matrix; top-three-feature pairplot with `Capacity`. |
+| 10–12 | Capacity versus discharge index; per-battery capacity trajectories; capacity by ambient temperature. |
+| 13–14 | Samples per discharge experiment; discharge experiments per battery. |
 
 ## Essential columns
 
