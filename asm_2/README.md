@@ -48,7 +48,3 @@ cd ..
 cd asm_2
 jupyter nbconvert --to notebook --execute --inplace Portfolio_Assessment2_LeMaiChi.ipynb
 ```
-
-Or open it interactively: `jupyter lab Portfolio_Assessment2_LeMaiChi.ipynb`, pick the **Python (nasa-battery)** kernel, then Restart & Run All. In VS Code, select the `.venv` interpreter instead.
-
-The run takes about 2 minutes and uses a fixed seed (42). It rewrites `output/figures/` and `output/tables/` inside `asm_2/`. The stored outputs were last produced with Python 3.13.16 and scikit-learn 1.9.1 on Linux; an earlier run with Python 3.14.5 on macOS gave the same table values.

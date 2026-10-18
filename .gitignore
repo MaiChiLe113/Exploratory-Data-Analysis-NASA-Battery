@@ -1,8 +1,6 @@
 .venv/.DS_Store
 .DS_Store
 asm_2/_backup_2026-10-17
-
-# Assessment 2 report files (submitted separately, not in the repo)
 asm_2/*.tex
 asm_2/*.pdf
 asm_2/*.aux
