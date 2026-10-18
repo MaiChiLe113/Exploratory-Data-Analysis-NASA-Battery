@@ -1,0 +1,4 @@
+class,capacity_range_Ah,SOH_range_%,count,percent
+EOL,< 1.40,< 70,1274,46.3
+Degraded,1.40 – 1.60,70 – 80,538,19.6
+Healthy,≥ 1.60,≥ 80,938,34.1

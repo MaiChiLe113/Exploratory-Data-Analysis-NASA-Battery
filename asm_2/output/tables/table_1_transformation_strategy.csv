@@ -1,0 +1,16 @@
+feature,type,train_skew,transformation
+discharge_index,continuous,0.88,standardise (z-score)
+ambient_temperature,categorical (regime),,one-hot (5 levels)
+mean_voltage,continuous,1.07,Yeo-Johnson + standardise
+min_voltage,continuous,-0.16,standardise (z-score)
+max_voltage,continuous,-4.83,Yeo-Johnson + standardise
+voltage_std,continuous,1.7,Yeo-Johnson + standardise
+voltage_drop,continuous,0.77,standardise (z-score)
+mean_abs_current,continuous,0.94,standardise (z-score)
+max_abs_current,continuous,0.63,standardise (z-score)
+current_std,continuous,1.18,Yeo-Johnson + standardise
+mean_temperature,continuous,-0.05,standardise (z-score)
+max_temperature,continuous,-0.0,standardise (z-score)
+temperature_rise,continuous,1.03,Yeo-Johnson + standardise
+mean_abs_load_current,continuous,0.97,standardise (z-score)
+mean_load_voltage,continuous,-0.82,standardise (z-score)

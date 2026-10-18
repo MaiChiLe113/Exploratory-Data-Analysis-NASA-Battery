@@ -1,0 +1,7 @@
+feature,formula,rationale,r_with_Capacity,most_similar_feature,max_abs_r_with_other,redundant_(>0.95)
+avg_power_W,mean_voltage × mean_abs_current,Average power drawn; combines load level and voltage (Assessment 1: current regimes).,0.506,mean_abs_load_current,0.996,True
+voltage_range,max_voltage − min_voltage,Total voltage swing; summarises how deep the discharge went.,-0.244,min_voltage,0.995,True
+voltage_sag,max_voltage − mean_voltage,Drop from the starting voltage to the mean level; captures curve shape (voltage_std was a top-3 correlate).,0.142,mean_voltage,0.987,True
+temp_above_ambient,mean_temperature − ambient_temperature,Self-heating relative to the chamber; separates cell heating from the set-point.,0.206,temperature_rise,0.952,True
+heating_per_amp,temperature_rise / mean_abs_current,Temperature rise per ampere; a rough proxy for internal resistance (I²R heating).,-0.314,mean_load_voltage,0.701,False
+log_discharge_index,log(1 + discharge_index),Compresses the right-skewed cycle count; early cycles are most informative about ageing.,-0.047,discharge_index,0.882,False

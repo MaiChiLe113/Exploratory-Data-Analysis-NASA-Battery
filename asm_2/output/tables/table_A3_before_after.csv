@@ -1,0 +1,15 @@
+feature,before_mean,before_std,before_skew,after_mean,after_std,after_skew
+discharge_index,60.504,48.602,0.882,-0.0,1.0,0.882
+min_voltage,2.335,0.266,-0.161,0.0,1.0,-0.161
+voltage_drop,0.927,0.555,0.768,0.0,1.0,0.768
+mean_abs_current,1.654,0.688,0.939,-0.0,1.0,0.939
+max_abs_current,2.36,1.049,0.635,0.0,1.0,0.635
+mean_temperature,26.652,13.334,-0.049,0.0,1.0,-0.049
+max_temperature,33.867,15.609,-0.001,0.0,1.0,-0.001
+mean_abs_load_current,1.652,0.691,0.967,-0.0,1.0,0.967
+mean_load_voltage,1.926,0.813,-0.821,0.0,1.0,-0.821
+mean_voltage,3.44,0.174,1.075,-0.0,1.0,-0.113
+max_voltage,4.185,0.028,-4.83,0.0,1.0,1.71
+voltage_std,0.301,0.084,1.695,-0.0,1.0,0.237
+current_std,0.715,0.616,1.178,-0.0,1.0,0.176
+temperature_rise,14.34,7.772,1.034,0.0,1.0,0.007
