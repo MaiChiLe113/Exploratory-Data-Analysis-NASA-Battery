@@ -14,4 +14,4 @@ asm_2/signature.png
 asm_3/.venv-tf/
 asm_3/copy.ipynb
 asm_3/report/
-
+asm_3/output/models/random_forest.pkl 
