@@ -11,3 +11,8 @@ asm_2/*.out
 asm_2/*.synctex.gz
 asm_2/genAIuse.png
 asm_2/signature.png
+asm_3/.venv-tf/
+asm_3/copy.ipynb
+asm_3/report/
+asm_3/output/
+
