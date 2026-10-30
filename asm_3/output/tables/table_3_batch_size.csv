@@ -1,0 +1,4 @@
+L,batch_size,train_time_s,epochs_run,best_epoch,train_loss_at_best,best_val_loss_mse,val_mae_at_best
+10,16,12.7439,26,16,0.00394,0.00142,0.02821
+10,32,7.16299,17,7,0.00731,0.00106,0.02577
+10,64,6.91524,24,14,0.00588,0.00089,0.02339
