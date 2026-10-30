@@ -1,0 +1,7 @@
+model,input,evaluated_on,n,R2,RMSE,MAE
+Random Forest,1 discharge × 15 features,all test rows,929,0.5249,0.3418,0.1377
+MLP,1 discharge × 15 features,all test rows,929,0.6552,0.2912,0.1531
+Random Forest (DL1 rows),1 discharge × 15 features,DL1 target rows,819,0.5054,0.3542,0.1379
+"LSTM (DL1, L=10)",10 previous discharges × 15 features,DL1 target rows,819,0.7147,0.269,0.142
+Random Forest (DL2 rows),1 discharge × 15 features,DL2 target rows,874,0.5172,0.3459,0.1359
+"LSTM (DL2, L=5)",5 previous discharges × 15 features,DL2 target rows,874,0.6054,0.3127,0.1789
