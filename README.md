@@ -42,9 +42,9 @@ jupyter lab Portfolio_Assessment1_LeMaiChi.ipynb
 cd ..
 ```
 
-### 5. Navigate to `asm_2` and run the notebook
+### 5. Navigate to `asm_3` and run the notebook
 
 ```bash
-cd asm_2
-jupyter nbconvert --to notebook --execute --inplace Portfolio_Assessment2_LeMaiChi.ipynb
+cd asm_3
+jupyter nbconvert --to notebook --execute --inplace Portfolio_Assessment3_LeMaiChi.ipynb
 ```
